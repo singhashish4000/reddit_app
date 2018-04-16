@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
    #root 'welcome#index'
    
-   root 'links#index'
+   root to: 'links#index'
    get 'links' => 'links#index', as: :all_links 
    
 
