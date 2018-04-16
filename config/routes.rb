@@ -8,6 +8,7 @@ Rails.application.routes.draw do
    root 'welcome#index'
 
    get 'links' => 'links#index', as: :all_links 
+   
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
